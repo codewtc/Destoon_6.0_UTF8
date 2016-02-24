@@ -1,0 +1,15 @@
+{template 'header', 'mobile'}
+<div id="head-bar">
+<div class="head-bar">
+<div class="head-bar-title">频道</div>
+</div>
+<div class="head-bar-fix"></div>
+</div>
+<div class="list-set">
+<ul>
+{loop $MOB_MODULE $i $m}
+<li><div{if $i==0} style="border:none;"{/if}><a href="{mobileurl($m[moduleid])}">{$m[name]}</a></div></li>
+{/loop}
+</ul>
+</div>
+{template 'footer', 'mobile'}

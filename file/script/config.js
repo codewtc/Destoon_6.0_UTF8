@@ -1,0 +1,1 @@
+var DTPath = "http://demo.destoon.com/v6.0/";var SKPath = "http://demo.destoon.com/v6.0/skin/default/";var MEPath = "http://demo.destoon.com/v6.0/member/";var DTEditor = "kindeditor";var CKDomain = ".destoon.org";var CKPath = "/";var CKPrex = "esf_";
